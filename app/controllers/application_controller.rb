@@ -1,4 +1,4 @@
-include ApplicantionHelper
+include ApplicationHelper
 class ApplicationController < ActionController::Base
   def hello
     render html: "hello world"
